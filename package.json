@@ -1,0 +1,38 @@
+{
+  "name": "react-semantic-form-builder",
+  "version": "1.0.0",
+  "description": "Component Using Semantic UI To Easily Build Forms On Your Application",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "webpack-dev-server --open --mode development",
+    "build": "webpack --mode production"
+  },
+  "keywords": [
+    "react-form",
+    "semantic-ui-form",
+    "form"
+  ],
+  "author": "Darragh Finn",
+  "license": "ISC",
+  "dependencies": {
+    "react": "16.14.0",
+    "react-dom": "16.14.0",
+    "semantic-ui-react": "2.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "7.12.3",
+    "@babel/preset-env": "7.12.1",
+    "@babel/preset-react": "7.12.1",
+    "babel-loader": "8.1.0",
+    "css-loader": "3.2.0",
+    "html-webpack-plugin": "3.2.0",
+    "less": "2.7.3",
+    "less-loader": "5.0.0",
+    "mini-css-extract-plugin": "1.0.0",
+    "semantic-ui-less": "2.4.1",
+    "url-loader": "2.2.0",
+    "webpack": "4.41.2",
+    "webpack-cli": "3.3.10",
+    "webpack-dev-server": "3.11.0"
+  }
+}

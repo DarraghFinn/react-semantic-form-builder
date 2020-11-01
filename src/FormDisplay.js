@@ -1,6 +1,7 @@
 import React, { useCallback } from "react";
 import { Form } from "semantic-ui-react";
 import _ from "lodash";
+import "semantic-ui-less/semantic.less";
 
 export default function FormDisplay({ form = [], mandatoryFields = [], setFormObj, formObj = {}, grouping }) {
   let FormPane = grouping ? Form["Group"] : Form["Field"];

@@ -15,19 +15,19 @@ npm install react-semantic-form-builder --save
 
 ## Props
 
-| Prop            | Description                                                                                                                    | Type     |  
-| --------------- | ------------------------------------------------------------------------------------------------------------------------------ | -------- | 
-| `form`  | Used To Draw Custom Forms                                                                                                    | array   |                                                                                                                                                                                    |
-| `mandatoryFields`      | Fields which will be highlighted in red if not set                                                                                           | array  |                                                                                                                                                                                        |
-| `setFormObj`      | Function to update your form object                                                                                                | function  |                                                                                                                                                                                        |
-| `formObj`        | Form object                                                                           | object  |                                                                                                                                                                                          |
-| `grouping` | Whether form should be grouped inline or on separate lines                                                                                                     | boolean   |
+| Prop              | Description                                                | Type     |
+| ----------------- | ---------------------------------------------------------- | -------- |
+| `form`            | Used To Draw Custom Forms                                  | array    |  |
+| `mandatoryFields` | Fields which will be highlighted in red if not set         | array    |  |
+| `setFormObj`      | Function to update your form object                        | function |  |
+| `formObj`         | Form object                                                | object   |  |
+| `grouping`        | Whether form should be grouped inline or on separate lines | boolean  |
 
 ## Example
 
 ```jsx
 import React, { useState } from "react";
-import FormDisplay from "react-semantic-form-builder;
+import FormDisplay from "react-semantic-form-builder";
 import ReactDOM from "react-dom";
 
 export default function BuildForm() {
@@ -45,7 +45,7 @@ export default function BuildForm() {
   return (
     <FormDisplay
       form={[
-      //[['name', 'label'],['formType', optionsForDropdown, multipleValues], width(4=25% + 16=100%)]
+        //[['name', 'label'],['formType', optionsForDropdown, multipleValues], width(4=25% + 16=100%)]
         [["multipleDropdown"], ["Select", options, true], 4],
         [["input"], ["Input"], 4],
         [["singleDropdown"], ["Select", options], 4],
@@ -56,7 +56,7 @@ export default function BuildForm() {
       mandatoryFields={["input", "singleDropdown", "checkbox"]}
       setFormObj={setValue}
       formObj={value}
-      grouping={value.grouping}
+      grouping={false}
     />
   );
 }

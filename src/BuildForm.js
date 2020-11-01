@@ -1,6 +1,5 @@
 import React, { memo } from "react";
 import FormDisplay from "./FormDisplay";
-import "semantic-ui-less/semantic.less";
 
 const BuildForm = memo(({ form, mandatoryFields, setFormObj, formObj, grouping }) => {
   return (

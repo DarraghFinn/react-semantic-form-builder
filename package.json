@@ -2,9 +2,10 @@
   "name": "react-semantic-form-builder",
   "version": "1.0.0",
   "description": "Component Using Semantic UI To Easily Build Forms On Your Application",
-  "main": "src/index.js",
+  "main": "dist/main.js",
   "scripts": {
     "start": "webpack-dev-server --open --mode development",
+    "publish": "npm run build",
     "build": "webpack --mode production"
   },
   "keywords": [
@@ -14,6 +15,11 @@
   ],
   "author": "Darragh Finn",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/darraghfinn/react-semantic-form-builder.git"
+  },
+  "homepage": "https://https://github.com/DarraghFinn/react-semantic-form-builder#readme",
   "dependencies": {
     "lodash": "^4.17.20",
     "react": "16.14.0",
@@ -35,5 +41,8 @@
     "webpack": "4.41.2",
     "webpack-cli": "3.3.10",
     "webpack-dev-server": "3.11.0"
+  },
+  "bugs": {
+    "url": "https://github.com/DarraghFinn/react-semantic-form-builder/issues"
   }
 }

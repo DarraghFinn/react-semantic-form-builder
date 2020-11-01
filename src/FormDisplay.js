@@ -34,7 +34,7 @@ export default function FormDisplay({ form = [], mandatoryFields = [], setFormOb
   return (
     <Form size="tiny">
       <FormPane style={grouping ? { flexWrap: "wrap" } : undefined}>
-        {form.map(([[name, label], [type, options, multiple], width]) => {
+        {form.map(([[name, label], [type, options = [], multiple], width = 4]) => {
           let FormType = Form[type];
           return (
             <FormType

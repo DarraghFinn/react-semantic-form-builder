@@ -4,11 +4,11 @@ const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 
 module.exports = {
   mode: "production",
-  entry: [path.resolve(__dirname, "src/index.js")],
+  entry: "src/index.js",
   output: {
     path: `${__dirname}/dist`,
     filename: "index.js",
-    library: "react-jodit-editor",
+    library: "react-semantic-form-builder",
     libraryTarget: "commonjs2",
   },
   watchOptions: {

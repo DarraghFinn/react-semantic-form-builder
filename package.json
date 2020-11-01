@@ -1,6 +1,6 @@
 {
   "name": "react-semantic-form-builder",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Component Using Semantic UI To Easily Build Forms On Your Application",
   "main": "dist/index.js",
   "scripts": {
@@ -19,7 +19,7 @@
     "type": "git",
     "url": "git+https://github.com/darraghfinn/react-semantic-form-builder.git"
   },
-  "homepage": "https://https://github.com/DarraghFinn/react-semantic-form-builder#readme",
+  "homepage": "https://github.com/DarraghFinn/react-semantic-form-builder#readme",
   "dependencies": {
     "lodash": "^4.17.20",
     "react": "16.14.0",

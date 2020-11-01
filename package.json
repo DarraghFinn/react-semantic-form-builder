@@ -1,6 +1,6 @@
 {
   "name": "react-semantic-form-builder",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Component Using Semantic UI To Easily Build Forms On Your Application",
   "main": "dist/index.js",
   "scripts": {
